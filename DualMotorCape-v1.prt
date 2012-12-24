@@ -1,66 +1,57 @@
-Partlist
-
-Exported from DualMotorCape-v1.brd at 12/23/2012 2:45:40 AM
-
-EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
-
-Assembly variant: 
-
-Part     Value                   Package                 Library    Position (inch)       Orientation
-
-C1       10uF                    C0805                   rcl        (0.47 1.58)           R90
-C2       47uF 50V                UD-6,3X7,7_NICHICON     rcl        (2.11 0.72)           R270
-C3       47uF 50V                UD-6,3X7,7_NICHICON     rcl        (1.27 0.37)           R0
-C4       47uF 50V                UD-6,3X7,7_NICHICON     rcl        (0.79 1.79)           R0
-C5       1uF                     C0603                   rcl        (1.48 0.33)           R270
-C6       1uF                     C0603                   rcl        (1.005 1.88)          R0
-C7       1uF                     C0603                   rcl        (2.16 0.53)           R0
-C8       0.1uF                   C0603                   rcl        (0.67 0.88)           R90
-C9       0.1uF                   C0603                   rcl        (0.885 1.27)          R270
-C10      0.1uF                   C0603                   rcl        (0.215 1.565)         R180
-C11      0.1uF                   C0603                   rcl        (0.33 1.84)           R0
-C12      0.1uF                   C0603                   rcl        (0.18 0.85)           R270
-J1       MOTOR1                  TERMINAL-BLOCK-2.54MM-2 MyCustom   (2.13 1.77)           MR0
-J2       MOTOR2                  TERMINAL-BLOCK-2.54MM-2 MyCustom   (2.13 1.15)           MR0
-J3       BATTERY                 TERMINAL-BLOCK-2.54MM-2 MyCustom   (1.97 0.35)           MR0
-JP1                              TSW-102-02-S-D          con-samtec (0.21 0.67)           MR90
-JP3      ICD2/3-HEADER           ICD2/3-HEADER           MyCustom   (0.19 1.225)          R0
-LED1     KINGBRIGHT-BI-COLOR-LED LED-1.6X1.5MM-BI-COLOR  MyCustom   (2.17 1.575)          R180
-LED2     KINGBRIGHT-BI-COLOR-LED LED-1.6X1.5MM-BI-COLOR  MyCustom   (2.17 0.98)           R180
-P8       TSW-123-02-S-D          TSW-123-02-S-D          con-samtec (1.17 2.025)          MR0
-P9       P9                      TSW-123-02-S-D          con-samtec (1.17 0.125)          MR0
-Q1       AON7418                 DFN3.3X3.3              MyCustom   (1.7 0.39)            R180
-QEI1                             53048-04                con-molex  (0.17 1.75)           R90
-QEI2     53048-04                53048-04                con-molex  (0.17 0.4)            R90
-R1       5.6K                    R0603                   rcl        (0.43 0.485)          R90
-R2       5.6K                    R0603                   rcl        (0.535 0.505)         R180
-R3       5.6K                    R0603                   rcl        (0.41 0.325)          R180
-R4       5.6K                    R0603                   rcl        (0.95 0.28)           R0
-R5       5.6K                    R0603                   rcl        (0.95 0.36)           R0
-R6       5.6K                    R0603                   rcl        (0.95 0.44)           R0
-R7       10K                     R0603                   rcl        (0.355 1.615)         R270
-R8       1K                      R0603                   rcl        (1.04 1.735)          R180
-R9       1K                      R0603                   rcl        (1.005 1.27)          R270
-R10      1K                      R0603                   rcl        (0.495 1.76)          R180
-R11      1K                      R0603                   rcl        (0.965 1.5)           R180
-R12      3.3K                    R0603                   rcl        (0.495 1.84)          R0
-R13      3.3K                    R0603                   rcl        (0.97 1.4)            R90
-R14      1K                      R0603                   rcl        (1.07 1.085)          R90
-R15      1K                      R0603                   rcl        (0.96 0.69)           R90
-R16      1K                      R0603                   rcl        (0.63 0.605)          R180
-R17      1K                      R0603                   rcl        (0.835 0.65)          R90
-R18      3.3K                    R0603                   rcl        (0.73 0.53)           R90
-R19      3.3K                    R0603                   rcl        (0.81 0.53)           R90
-R20      10K                     R0603                   rcl        (0.33 0.965)          R90
-R21      1.5K                    R0603                   rcl        (0.33 0.85)           R270
-R22      10K                     R0603                   rcl        (0.415 0.785)         R90
-R23      1.5K                    R0603                   rcl        (0.415 0.665)         R270
-R24      1K                      R0603                   rcl        (2.19 1.475)          R180
-R25      1K                      R0603                   rcl        (2.18 1.355)          R0
-R26      1K                      R0603                   rcl        (0.985 0.9)           R180
-R27      1K                      R0603                   rcl        (0.89 1.615)          R180
-SJ1                              SJ                      jumper     (0.93 0.525)          R0
-U1       VNH5019A-E              VNH5019A-E              MyCustom   (1.52 1.55)           R270
-U2       VNH5019A-E              VNH5019A-E              MyCustom   (1.52 0.85)           R270
-U3       DSPIC33FJ16MC304X/PT    TQFP44_MC               MyCustom   (0.56 1.23)           R270
-U4       CAT24C256               SOIC-8                  MyCustom   (0.65 0.35)           R0
+Part	Value	Package	Manufacturer	Mfg Part Number	Digikey Part Number	Cost (QTY 100)	URL	Comments	Library	Position (inch)	Orientation
+C1	10uF	C0805	Taiyo Yuden	LMK212BJ106KG-T	587-1300-1-ND	0.072	http://www.digikey.ca/product-detail/en/LMK212BJ106KG-T/587-1300-1-ND/931077	Any Ceramic X5R capacitor > 5V	rcl	(0.47 1.58)	R90
+C2	47uF 50V	"UD-6,3X7,7_NICHICON"	Nichicon	UCD1H470MCL6GS	493-6184-1-ND	0.3251	http://www.digikey.ca/product-detail/en/UCD1H470MCL6GS/493-6184-1-ND/3438697	"Selected this one because of the low height (0.256"")."	rcl	(2.11 0.72)	R270
+C3	47uF 50V	"UD-6,3X7,7_NICHICON"	Nichicon	UCD1H470MCL6GS	493-6184-1-ND	0.3251	http://www.digikey.ca/product-detail/en/UCD1H470MCL6GS/493-6184-1-ND/3438697	"Selected this one because of the low height (0.256"")."	rcl	(1.27 0.37)	R0
+C4	47uF 50V	"UD-6,3X7,7_NICHICON"	Nichicon	UCD1H470MCL6GS	493-6184-1-ND	0.3251	http://www.digikey.ca/product-detail/en/UCD1H470MCL6GS/493-6184-1-ND/3438697	"Selected this one because of the low height (0.256"")."	rcl	(0.79 1.79)	R0
+C5	1uF	C0603	Taiyo Yuden		587-2400-1-ND	0.0566		50V required	rcl	(1.48 0.33)	R270
+C6	1uF	C0603	Taiyo Yuden			0.0566		50V required	rcl	(1.005 1.88)	R0
+C7	1uF	C0603							rcl	(2.16 0.53)	R0
+C8	0.1uF	C0603							rcl	(0.67 0.88)	R90
+C9	0.1uF	C0603							rcl	(0.885 1.27)	R270
+C10	0.1uF	C0603							rcl	(0.215 1.565)	R180
+C11	0.1uF	C0603							rcl	(0.33 1.84)	R0
+C12	0.1uF	C0603							rcl	(0.18 0.85)	R270
+J1	MOTOR1	TERMINAL-BLOCK-2.54MM-2							MyCustom	(2.13 1.77)	MR0
+J2	MOTOR2	TERMINAL-BLOCK-2.54MM-2							MyCustom	(2.13 1.15)	MR0
+J3	BATTERY	TERMINAL-BLOCK-2.54MM-2							MyCustom	(1.97 0.35)	MR0
+JP1		TSW-102-02-S-D							con-samtec	(0.21 0.67)	MR90
+JP3	ICD2/3-HEADER	ICD2/3-HEADER							MyCustom	(0.19 1.225)	R0
+LED1	KINGBRIGHT-BI-COLOR-LED	LED-1.6X1.5MM-BI-COLOR							MyCustom	(2.17 1.575)	R180
+LED2	KINGBRIGHT-BI-COLOR-LED	LED-1.6X1.5MM-BI-COLOR							MyCustom	(2.17 0.98)	R180
+P8	TSW-123-02-S-D	TSW-123-02-S-D							con-samtec	(1.17 2.025)	MR0
+P9	P9	TSW-123-02-S-D							con-samtec	(1.17 0.125)	MR0
+Q1	AON7418	DFN3.3X3.3							MyCustom	(1.7 0.39)	R180
+QEI1		53048-04							con-molex	(0.17 1.75)	R90
+QEI2	53048-04	53048-04							con-molex	(0.17 0.4)	R90
+R1	5.6K	R0603							rcl	(0.43 0.485)	R90
+R2	5.6K	R0603							rcl	(0.535 0.505)	R180
+R3	5.6K	R0603							rcl	(0.41 0.325)	R180
+R4	5.6K	R0603							rcl	(0.95 0.28)	R0
+R5	5.6K	R0603							rcl	(0.95 0.36)	R0
+R6	5.6K	R0603							rcl	(0.95 0.44)	R0
+R7	10K	R0603							rcl	(0.355 1.615)	R270
+R8	1K	R0603							rcl	(1.04 1.735)	R180
+R9	1K	R0603							rcl	(1.005 1.27)	R270
+R10	1K	R0603							rcl	(0.495 1.76)	R180
+R11	1K	R0603							rcl	(0.965 1.5)	R180
+R12	3.3K	R0603							rcl	(0.495 1.84)	R0
+R13	3.3K	R0603							rcl	(0.97 1.4)	R90
+R14	1K	R0603							rcl	(1.07 1.085)	R90
+R15	1K	R0603							rcl	(0.96 0.69)	R90
+R16	1K	R0603							rcl	(0.63 0.605)	R180
+R17	1K	R0603							rcl	(0.835 0.65)	R90
+R18	3.3K	R0603							rcl	(0.73 0.53)	R90
+R19	3.3K	R0603							rcl	(0.81 0.53)	R90
+R20	10K	R0603							rcl	(0.33 0.965)	R90
+R21	1.5K	R0603							rcl	(0.33 0.85)	R270
+R22	10K	R0603							rcl	(0.415 0.785)	R90
+R23	1.5K	R0603							rcl	(0.415 0.665)	R270
+R24	1K	R0603							rcl	(2.19 1.475)	R180
+R25	1K	R0603							rcl	(2.18 1.355)	R0
+R26	1K	R0603							rcl	(0.985 0.9)	R180
+R27	1K	R0603							rcl	(0.89 1.615)	R180
+SJ1		SJ							jumper	(0.93 0.525)	R0
+U1	VNH5019A-E	VNH5019A-E							MyCustom	(1.52 1.55)	R270
+U2	VNH5019A-E	VNH5019A-E							MyCustom	(1.52 0.85)	R270
+U3	DSPIC33FJ16MC304X/PT	TQFP44_MC							MyCustom	(0.56 1.23)	R270
+U4	CAT24C256	SOIC-8							MyCustom	(0.65 0.35)	R0
