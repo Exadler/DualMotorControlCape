@@ -17,5 +17,5 @@ Features:
 * Reverse / Forward LED indicators on each motor
 * Current sensor for each motor
 
-
+<img src="http://2.bp.blogspot.com/-fm_Jcbqv29M/Ud3S4I87hWI/AAAAAAAABeY/fPvAlhZtuuU/s1600/DMCC-Mk5-Layout.jpg>
 
