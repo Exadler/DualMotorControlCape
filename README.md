@@ -3,6 +3,9 @@ DualMotorControlCape (DMCC)
 
 Dual Motor H-Bridge with dual Quadrature Encoder cape for BeagleBone Black
 
+Follow our progress on http://exadler.blogspot.com and http://www.exadler.com
+
+
 Features:
 ---------
 
