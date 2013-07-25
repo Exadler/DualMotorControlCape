@@ -16,7 +16,8 @@ Features:
 * 18KHz PWM for quiet operation
 * I2C Interface to the Beaglebone Black
 * Stackable, up to 4 DMCC can be put on a single Beaglebone (8 motors!)
-* PID position and velocity with adjustable Kp,Ki,Kd
+* Optional PID position and velocity with adjustable Kp,Ki,Kd
+* Control through open source C library
 * Reverse / Forward LED indicators on each motor
 * Current sensor for each motor
 
